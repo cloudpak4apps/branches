@@ -47,7 +47,7 @@ module.exports = function(app) {
         console.log('cpMin --> ' + cpMin);
         console.log('cpMax --> ' + cpMax);
 
-        console.log('Query object prepared');
+        //console.log('Query object prepared');
 
         db.collection('sucursales').find({
           cp: {
