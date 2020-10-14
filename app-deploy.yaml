@@ -62,7 +62,7 @@ metadata:
   name: branches
   namespace: demo
 spec:
-  applicationImage: image-registry.openshift-image-registry.svc:5000/demo/branches:v1.0.1
+  applicationImage: image-registry.openshift-image-registry.svc:5000/demo/branches:tkn
   createKnativeService: false
   env:
   - name: MONGO_SERVER_ADDR
